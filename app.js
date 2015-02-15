@@ -14,7 +14,7 @@ var session = require('express-session');
 var csrf = require('csurf');
 var errorHandler = require('errorhandler')
 
-var db = mongoskin.db('mongodb://express:qaz123wsx@localhost:27017/expressdb');
+var db = mongoskin.db('mongodb://express:qaz#123@localhost:27017/express');
 
 var app = express();
 
